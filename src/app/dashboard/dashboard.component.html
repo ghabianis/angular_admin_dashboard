@@ -1,0 +1,719 @@
+<!--navbar-->
+<nav class="navbar navbar-top navbar-expand navbar-dashboard navbar-dark ps-0 pe-2 pb-0">
+    <div class="container-fluid px-0">
+       <div class="d-flex justify-content-between w-100" id="navbarSupportedContent">
+          <div class="d-flex align-items-center">
+             <form class="navbar-search form-inline" id="navbar-search-main">
+             </form>
+          </div>
+          <ul class="navbar-nav align-items-center">
+             <li class="nav-item dropdown">
+                <a class="nav-link text-dark notification-bell unread dropdown-toggle" data-unread-notifications="true" href="#" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                   <svg class="icon icon-sm text-gray-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z"></path>
+                   </svg>
+                </a>
+                <div class="dropdown-menu dropdown-menu-lg dropdown-menu-center mt-2 py-0">
+                   <div class="list-group list-group-flush">
+                      <a href="#" class="text-center text-primary fw-bold border-bottom border-light py-3">Notifications</a> 
+                      <a href="#" class="list-group-item list-group-item-action border-bottom">
+                         <div class="row align-items-center">
+                            <div class="col-auto"> <img alt="Image placeholder" src="assets/img/profile-picture-1.jpg" class="avatar-md rounded"></div>
+                            <div class="col ps-0 ms-2">
+                               <div class="d-flex justify-content-between align-items-center">
+                                  <div>
+                                     <h4 class="h6 mb-0 text-small">Jose Leos</h4>
+                                  </div>
+                                  <div class="text-end"><small class="text-danger">a few moments ago</small></div>
+                               </div>
+                               <p class="font-small mt-1 mb-0">Added you to an event "Project stand-up" tomorrow at 12:30 AM.</p>
+                            </div>
+                         </div>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action border-bottom">
+                         <div class="row align-items-center">
+                            <div class="col-auto"> <img alt="Image placeholder" src="assets/img/profile-picture-2.jpg" class="avatar-md rounded"></div>
+                            <div class="col ps-0 ms-2">
+                               <div class="d-flex justify-content-between align-items-center">
+                                  <div>
+                                     <h4 class="h6 mb-0 text-small">Neil Sims</h4>
+                                  </div>
+                                  <div class="text-end"><small class="text-danger">2 hrs ago</small></div>
+                               </div>
+                               <p class="font-small mt-1 mb-0">You've been assigned a task for "Awesome new project".</p>
+                            </div>
+                         </div>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action border-bottom">
+                         <div class="row align-items-center">
+                            <div class="col-auto"> <img alt="Image placeholder" src="assets/img/profile-picture-3.jpg" class="avatar-md rounded"></div>
+                            <div class="col ps-0 m-2">
+                               <div class="d-flex justify-content-between align-items-center">
+                                  <div>
+                                     <h4 class="h6 mb-0 text-small">Roberta Casas</h4>
+                                  </div>
+                                  <div class="text-end"><small>5 hrs ago</small></div>
+                               </div>
+                               <p class="font-small mt-1 mb-0">Tagged you in a document called "Financial plans",</p>
+                            </div>
+                         </div>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action border-bottom">
+                         <div class="row align-items-center">
+                            <div class="col-auto"> <img alt="Image placeholder" src="assets/img/profile-picture-4.jpg" class="avatar-md rounded"></div>
+                            <div class="col ps-0 ms-2">
+                               <div class="d-flex justify-content-between align-items-center">
+                                  <div>
+                                     <h4 class="h6 mb-0 text-small">Joseph Garth</h4>
+                                  </div>
+                                  <div class="text-end"><small>1 d ago</small></div>
+                               </div>
+                               <p class="font-small mt-1 mb-0">New message: "Hey, what's up? All set for the presentation?"</p>
+                            </div>
+                         </div>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action border-bottom">
+                         <div class="row align-items-center">
+                            <div class="col-auto"> <img alt="Image placeholder" src="assets/img/profile-picture-5.jpg" class="avatar-md rounded"></div>
+                            <div class="col ps-0 ms-2">
+                               <div class="d-flex justify-content-between align-items-center">
+                                  <div>
+                                     <h4 class="h6 mb-0 text-small">Bonnie Green</h4>
+                                  </div>
+                                  <div class="text-end"><small>2 hrs ago</small></div>
+                               </div>
+                               <p class="font-small mt-1 mb-0">New message: "We need to improve the UI/UX for the landing page."</p>
+                            </div>
+                         </div>
+                      </a>
+                      <a href="#" class="dropdown-item text-center fw-bold rounded-bottom py-3">
+                         <svg class="icon icon-xxs text-gray-400 me-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                            <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+                         </svg>
+                         View all
+                      </a>
+                   </div>
+                </div>
+             </li>
+             <li class="nav-item dropdown ms-lg-3">
+                <a class="nav-link dropdown-toggle pt-1 px-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   <div class="media d-flex align-items-center">
+                      <img class="avatar rounded-circle" alt="Image placeholder" src="assets/img/profile-picture-3.jpg">
+                      <div class="media-body ms-2 text-dark align-items-center d-none d-lg-block"><span class="mb-0 font-small fw-bold text-gray-900">Bonnie Green</span></div>
+                   </div>
+                </a>
+                <div class="dropdown-menu dashboard-dropdown dropdown-menu-end mt-2 py-1">
+                   <a class="dropdown-item d-flex align-items-center" href="#">
+                      <svg class="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                         <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clip-rule="evenodd"></path>
+                      </svg>
+                      My Profile 
+                   </a>
+                   <a class="dropdown-item d-flex align-items-center" href="#">
+                      <svg class="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                         <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"></path>
+                      </svg>
+                      Settings 
+                   </a>
+                   <a class="dropdown-item d-flex align-items-center" href="#">
+                      <svg class="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                         <path fill-rule="evenodd" d="M5 3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2H5zm0 2h10v7h-2l-1 2H8l-1-2H5V5z" clip-rule="evenodd"></path>
+                      </svg>
+                      Messages 
+                   </a>
+                   <a class="dropdown-item d-flex align-items-center" href="#">
+                      <svg class="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                         <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-2 0c0 .993-.241 1.929-.668 2.754l-1.524-1.525a3.997 3.997 0 00.078-2.183l1.562-1.562C15.802 8.249 16 9.1 16 10zm-5.165 3.913l1.58 1.58A5.98 5.98 0 0110 16a5.976 5.976 0 01-2.516-.552l1.562-1.562a4.006 4.006 0 001.789.027zm-4.677-2.796a4.002 4.002 0 01-.041-2.08l-.08.08-1.53-1.533A5.98 5.98 0 004 10c0 .954.223 1.856.619 2.657l1.54-1.54zm1.088-6.45A5.974 5.974 0 0110 4c.954 0 1.856.223 2.657.619l-1.54 1.54a4.002 4.002 0 00-2.346.033L7.246 4.668zM12 10a2 2 0 11-4 0 2 2 0 014 0z" clip-rule="evenodd"></path>
+                      </svg>
+                      Support
+                   </a>
+                   <div role="separator" class="dropdown-divider my-1"></div>
+                   <a class="dropdown-item d-flex align-items-center" href="#">
+                      <svg class="dropdown-icon text-danger me-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path>
+                      </svg>
+                      Logout
+                   </a>
+                </div>
+             </li>
+          </ul>
+       </div>
+    </div>
+ </nav>
+
+ <div class="row">
+    
+    <div class="col-12 col-sm-6 col-xl-4 mb-4">
+       <div class="card border-0 shadow">
+          <div class="card-body">
+             <div class="row d-block d-xl-flex align-items-center">
+                <div class="col-12 col-xl-5 text-xl-center mb-3 mb-xl-0 d-flex align-items-center justify-content-xl-center">
+                   <div class="icon-shape icon-shape-primary rounded me-4 me-sm-0">
+                      <svg class="icon icon-md" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                         <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"></path>
+                      </svg>
+                   </div>
+                   <div class="d-sm-none">
+                      <h2 class="h5">Customers</h2>
+                      <h3 class="fw-extrabold mb-1">345,678</h3>
+                   </div>
+                </div>
+                <div class="col-12 col-xl-7 px-xl-0">
+                   <div class="d-none d-sm-block">
+                      <h2 class="h5">Customers</h2>
+                      <h3 class="fw-extrabold mb-1">345k</h3>
+                   </div>
+                   <small class="d-flex align-items-center">
+                      Feb 1 - Apr 1, 
+                      <svg class="icon icon-xxs text-gray-500 ms-2 me-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" clip-rule="evenodd"></path>
+                      </svg>
+                      SUA
+                   </small>
+                   <div class="small d-flex mt-1">
+                      <svg class="icon icon-xs text-success" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                         <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+                      </svg>
+                      <div><span class="text-success fw-bolder me-1">22%</span> Since last month</div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+    <div class="col-12 col-sm-6 col-xl-4 mb-4">
+       <div class="card border-0 shadow">
+          <div class="card-body">
+             <div class="row d-block d-xl-flex align-items-center">
+                <div class="col-12 col-xl-5 text-xl-center mb-3 mb-xl-0 d-flex align-items-center justify-content-xl-center">
+                   <div class="icon-shape icon-shape-secondary rounded me-4 me-sm-0">
+                      <svg class="icon icon-md" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                         <path fill-rule="evenodd" d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z" clip-rule="evenodd"></path>
+                      </svg>
+                   </div>
+                   <div class="d-sm-none">
+                      <h2 class="fw-extrabold h5">Revenue</h2>
+                      <h3 class="mb-1">$43,594</h3>
+                   </div>
+                </div>
+                <div class="col-12 col-xl-7 px-xl-0">
+                   <div class="d-none d-sm-block">
+                      <h2 class="h5">Revenue</h2>
+                      <h3 class="fw-extrabold mb-1">$43,594</h3>
+                   </div>
+                   <small class="d-flex align-items-center">
+                      Feb 1 - Apr 1, 
+                      <svg class="icon icon-xxs text-gray-500 ms-2 me-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" clip-rule="evenodd"></path>
+                      </svg>
+                      SUA
+                   </small>
+                   <div class="small d-flex mt-1">
+                      <svg class="icon icon-xs text-danger" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                         <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                      </svg>
+                      <div><span class="text-danger fw-bolder me-1">2%</span> Since last month</div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+    <div class="col-12 col-sm-6 col-xl-4 mb-4">
+       <div class="card border-0 shadow">
+          <div class="card-body">
+             <div class="row d-block d-xl-flex align-items-center">
+                <div class="col-12 col-xl-5 text-xl-center mb-3 mb-xl-0 d-flex align-items-center justify-content-xl-center">
+                   <div class="icon-shape icon-shape-tertiary rounded me-4 me-sm-0">
+                      <svg class="icon icon-md" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                         <path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                      </svg>
+                   </div>
+                   <div class="d-sm-none">
+                      <h2 class="fw-extrabold h5">Bounce Rate</h2>
+                      <h3 class="mb-1">50.88%</h3>
+                   </div>
+                </div>
+                <div class="col-12 col-xl-7 px-xl-0">
+                   <div class="d-none d-sm-block">
+                      <h2 class="h5">Bounce Rate</h2>
+                      <h3 class="fw-extrabold mb-1">50.88%</h3>
+                   </div>
+                   <small>Feb 1 - Apr 1</small>
+                   <div class="small d-flex mt-1">
+                      <svg class="icon icon-xs text-success" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                         <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                      </svg>
+                      <div><span class="text-success fw-bolder me-1">4%</span> Since last month</div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <!--start 2 carrd-->
+ <div class="row">
+    <div class="col-12 col-xl-8">
+       <div class="row">
+          <!--start card Remain Vacation Days-->
+          <div class="col-12 col-xxl-6 mb-4">
+            <div class="card border-0 shadow">
+               <div class="card-header border-bottom d-flex align-items-center justify-content-between">
+                  <h2 class="fs-5 fw-bold mb-0">Remain Vacation Days</h2>
+               </div>
+               <div class="card-body">
+                  <div class="row mb-4">
+                     <div class="col-auto">
+                        <svg class=" " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"></path>
+                           <path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd"></path>
+                        </svg>
+                     </div>
+                     <div class="col">
+                        <div class="progress-wrapper">
+                           <div class="progress-info">
+                              <div class="h6 mb-0">pending vacation requests
+                              </div>
+                              <div class="small fw-bold text-gray-500"><span>75 %</span></div>
+                           </div>
+                           <div class="progress mb-0">
+                              <div class="progress-bar bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row align-items-center mb-4">
+                     <div class="col-auto">
+                        <svg class="" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"></path>
+                           <path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd"></path>
+                        </svg>
+                     </div>
+                     <div class="col">
+                        <div class="progress-wrapper">
+                           <div class="progress-info">
+                              <div class="h6 mb-0">pending leave requests
+                              </div>
+                              <div class="small fw-bold text-gray-500"><span>60 %</span></div>
+                           </div>
+                           <div class="progress mb-0">
+                              <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row align-items-center mb-4">
+                     <div class="col-auto">
+                        <svg class="" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"></path>
+                           <path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd"></path>
+                        </svg>
+                     </div>
+                     <div class="col">
+                        <div class="progress-wrapper">
+                           <div class="progress-info">
+                              <div class="h6 mb-0">Needed correction actions
+                              </div>
+                              <div class="small fw-bold text-gray-500"><span>45 %</span></div>
+                           </div>
+                           <div class="progress mb-0">
+                              <div class="progress-bar bg-success" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%;"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row align-items-center mb-3">
+                     <div class="col-auto">
+                        <svg class="" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"></path>
+                           <path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd"></path>
+                        </svg>
+                     </div>
+                     <div class="col">
+                        <div class="progress-wrapper">
+                           <div class="progress-info">
+                              <div class="h6 mb-0">Absence</div>
+                              <div class="small fw-bold text-gray-500"><span>34 %</span></div>
+                           </div>
+                           <div class="progress mb-0">
+                              <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="34" aria-valuemin="0" aria-valuemax="100" style="width: 34%;"></div>
+                           </div>
+                        </div>
+                     </div>
+                     
+                  </div>
+                  <button type="button" style="margin-left: 12%;margin-bottom: 3%;"  [routerLink]="['/View Attendance']"   class="btn btn-primary">View Attendanbce</button>
+
+               </div>
+            </div>
+         </div>
+         <!--End card Remain Vacation Days-->
+
+         <!--start card Attendance-->
+         <div class="col-12 col-xxl-6 mb-4">
+            <div class="card border-0 shadow">
+               <div class="card-header border-bottom d-flex align-items-center justify-content-between">
+                  <h2 class="fs-5 fw-bold mb-0">Attendance</h2>
+               </div>
+               <div class="card-body">
+                        <div class="row align-items-center "> <br><br><br>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                             <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                             <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                           </svg>
+                           <p style="margin-left: 38%
+                           ; margin-top: 2%;"> {{ currentDate | date:'dd/MM/yyyy' }}</p>
+                           <p style="margin-left: 40%
+                           ; margin-bottom: -3%;margin-top: 3%;">{{ currentTime.getHours() }}:{{ currentTime.getMinutes() }}:{{ currentTime.getSeconds() }}</p>
+                           <div class="col-auto text-center m-b-5 mt-4 " style="margin-left: 25%;" > 
+                             <button  type="button" data-toggle="modal" data-target="#exampleModalCenter" class="btn btn-primary d-inline-flex align-items-center" >
+                                Check In
+                             </button>                             
+                              <div class="space ">
+                             </div>
+                             <button type="button" data-toggle="modal" data-target="#exampleModalCenter2" class="btn btn-primary d-inline-flex align-items-center" >
+                                Check Out 
+                             </button>                          
+                           </div>
+                           <p class="mt-4 
+                           " style="margin-left: 25%;">Check Out Since:00:00:00</p>    
+                        </div>
+               </div>
+            </div>
+         </div>
+    <!--End card Attendanbce-->
+       </div>
+    </div>
+
+    <div class="col-12 col-xl-4">
+       <div class="col-12 px-0 mb-4">
+          <div class="card border-0 shadow">
+             <div class="card-header d-flex flex-row align-items-center flex-0 border-bottom">
+                <div class="d-block">
+                   <div class="h6 fw-normal text-gray mb-2">Total orders</div>
+                   <h2 class="h3 fw-extrabold">452</h2>
+                   <div class="small mt-2"><span class="fas fa-angle-up text-success"></span> <span class="text-success fw-bold">18.2%</span></div>
+                </div>
+                <div class="d-block ms-auto">
+                   <div class="d-flex align-items-center text-end mb-2"><span class="dot rounded-circle bg-gray-800 me-2"></span> <span class="fw-normal small">July</span></div>
+                   <div class="d-flex align-items-center text-end"><span class="dot rounded-circle bg-secondary me-2"></span> <span class="fw-normal small">August</span></div>
+                </div>
+             </div>
+             <div class="card-body p-2">
+                <div class="ct-chart-ranking ct-golden-section ct-series-a"></div>
+             </div>
+          </div>
+       </div>
+       <div class="col-12 px-0 mb-4">
+          <div class="card border-0 shadow">
+             <div class="card-body">
+                <div class="d-flex align-items-center justify-content-between border-bottom pb-3">
+                   <div>
+                      <div class="h6 mb-0 d-flex align-items-center">
+                         <svg class="icon icon-xs text-gray-500 me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" clip-rule="evenodd"></path>
+                         </svg>
+                         Global Rank
+                      </div>
+                   </div>
+                   <div>
+                      <a href="#" class="d-flex align-items-center fw-bold">
+                         #755 
+                         <svg class="icon icon-xs text-gray-500 ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                         </svg>
+                      </a>
+                   </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+                   <div>
+                      <div class="h6 mb-0 d-flex align-items-center">
+                         <svg class="icon icon-xs text-gray-500 me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M3 6a3 3 0 013-3h10a1 1 0 01.8 1.6L14.25 8l2.55 3.4A1 1 0 0116 13H6a1 1 0 00-1 1v3a1 1 0 11-2 0V6z" clip-rule="evenodd"></path>
+                         </svg>
+                         Country Rank
+                      </div>
+                      <div class="small card-stats">
+                         United States 
+                         <svg class="icon icon-xs text-success" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+                         </svg>
+                      </div>
+                   </div>
+                   <div>
+                      <a href="#" class="d-flex align-items-center fw-bold">
+                         #32 
+                         <svg class="icon icon-xs text-gray-500 ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                         </svg>
+                      </a>
+                   </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between pt-3">
+                   <div>
+                      <div class="h6 mb-0 d-flex align-items-center">
+                         <svg class="icon icon-xs text-gray-500 me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z" clip-rule="evenodd"></path>
+                            <path d="M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z"></path>
+                         </svg>
+                         Category Rank
+                      </div>
+                      <div class="small card-stats">
+                         Computers Electronics > Technology 
+                         <svg class="icon icon-xs text-success" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+                         </svg>
+                      </div>
+                   </div>
+                   <div>
+                      <a href="#" class="d-flex align-items-center fw-bold">
+                         #11 
+                         <svg class="icon icon-xs text-gray-500 ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                         </svg>
+                      </a>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       
+    </div>
+
+   
+    <!--start carousel-->
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-4 text-center">
+               <svg xmlns="http://www.w3.org/2000/svg" id="svg1" width="150" height="50" viewBox="0 0 640 512"  ><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M192 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-8 384V352h16V480c0 17.7 14.3 32 32 32s32-14.3 32-32V192h56 64 16c17.7 0 32-14.3 32-32s-14.3-32-32-32H384V64H576V256H384V224H320v48c0 26.5 21.5 48 48 48H592c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H368c-26.5 0-48 21.5-48 48v80H243.1 177.1c-33.7 0-64.9 17.7-82.3 46.6l-58.3 97c-9.1 15.1-4.2 34.8 10.9 43.9s34.8 4.2 43.9-10.9L120 256.9V480c0 17.7 14.3 32 32 32s32-14.3 32-32z"/></svg>    <br>         <button class="btn btn-outline-info btn-block mt-3 w-50">My pending requests</button>
+            </div>
+            <div class="col-md-4 text-center">
+               <svg xmlns="http://www.w3.org/2000/svg" id="svg2" width="150" height="50" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M480 32c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9L381.7 53c-48 48-113.1 75-181 75H192 160 64c-35.3 0-64 28.7-64 64v96c0 35.3 28.7 64 64 64l0 128c0 17.7 14.3 32 32 32h64c17.7 0 32-14.3 32-32V352l8.7 0c67.9 0 133 27 181 75l43.6 43.6c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V300.4c18.6-8.8 32-32.5 32-60.4s-13.4-51.6-32-60.4V32zm-64 76.7V240 371.3C357.2 317.8 280.5 288 200.7 288H192V192h8.7c79.8 0 156.5-29.8 215.3-83.3z"/></svg>    <br>         <button class="btn btn-outline-info btn-block mt-3 w-50">My anouncements</button>
+            </div>
+            <div class="col-md-4 text-center">
+               <svg xmlns="http://www.w3.org/2000/svg" id="svg3"width="150" height="50" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 0C400 0 288 32 288 176V288c0 35.3 28.7 64 64 64h32V480c0 17.7 14.3 32 32 32s32-14.3 32-32V352 240 32c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7V480c0 17.7 14.3 32 32 32s32-14.3 32-32V255.6c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16V150.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8V16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z"/></svg>   <br>         <button class="btn btn-outline-info btn-block mt-3 w-50">Book now</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+         <div class="row justify-content-center align-items-center">
+            <div class="col-md-4 text-center">
+               <svg xmlns="http://www.w3.org/2000/svg" id="svg1" width="150" height="50" viewBox="0 0 640 512"  ><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M192 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-8 384V352h16V480c0 17.7 14.3 32 32 32s32-14.3 32-32V192h56 64 16c17.7 0 32-14.3 32-32s-14.3-32-32-32H384V64H576V256H384V224H320v48c0 26.5 21.5 48 48 48H592c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H368c-26.5 0-48 21.5-48 48v80H243.1 177.1c-33.7 0-64.9 17.7-82.3 46.6l-58.3 97c-9.1 15.1-4.2 34.8 10.9 43.9s34.8 4.2 43.9-10.9L120 256.9V480c0 17.7 14.3 32 32 32s32-14.3 32-32z"/></svg>    <br>         <button class="btn btn-outline-info btn-block mt-3 w-50">My pending requests</button>
+            </div>
+            <div class="col-md-4 text-center">
+               <svg xmlns="http://www.w3.org/2000/svg" id="svg2" width="150" height="50" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M480 32c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9L381.7 53c-48 48-113.1 75-181 75H192 160 64c-35.3 0-64 28.7-64 64v96c0 35.3 28.7 64 64 64l0 128c0 17.7 14.3 32 32 32h64c17.7 0 32-14.3 32-32V352l8.7 0c67.9 0 133 27 181 75l43.6 43.6c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V300.4c18.6-8.8 32-32.5 32-60.4s-13.4-51.6-32-60.4V32zm-64 76.7V240 371.3C357.2 317.8 280.5 288 200.7 288H192V192h8.7c79.8 0 156.5-29.8 215.3-83.3z"/></svg>    <br>         <button class="btn btn-outline-info btn-block mt-3 w-50">My anouncements</button>
+            </div>
+            <div class="col-md-4 text-center">
+               <svg xmlns="http://www.w3.org/2000/svg" id="svg3"width="150" height="50" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 0C400 0 288 32 288 176V288c0 35.3 28.7 64 64 64h32V480c0 17.7 14.3 32 32 32s32-14.3 32-32V352 240 32c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7V480c0 17.7 14.3 32 32 32s32-14.3 32-32V255.6c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16V150.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8V16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z"/></svg>   <br>         <button class="btn btn-outline-info btn-block mt-3 w-50">Book now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+<svg xmlns="http://www.w3.org/2000/svg"  width="25" height="25" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>      </a>
+    </div>
+    <div class="mb-3 mb-lg-0 mb-5 mt-4">
+      <h1 class="h4">My Calendar</h1>
+   </div>
+    <!--end carousel-->
+
+    <!--satrt filtage--> 
+    <div class="row "  style="width: 100%;">
+      <div class="col-12 mb-4 ">
+         <div class="card border-0 shadow components-section ">
+            <div class="card-body" style="margin-left: 2%; margin-bottom: -1%; margin-top: 2%; ">
+               <div class="row mb-4">
+                  <div class="d-flex justify-content-between w-100 flex-wrap">
+                     <div class="mb-3 mb-lg-0">
+                        <h1 class="h4">Basic Filter(s)</h1>
+                     </div>
+                  </div>
+               </div>
+               <div class="container ">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <div class="input-group">
+                        <select class="form-select" id="country" aria-label="Default select example" style="background-color: gainsboro;">
+                           <option selected="selected">select a team/departement</option>
+                           <option value="1">All</option>
+                           <option value="2">Work</option>
+                           <option value="3">Vacation</option>
+                           <option value="3">Leave</option>
+                           <option value="3">Holiday</option>
+                           <option value="3">Absence</option>
+
+
+                        </select>          
+                      </div>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="input-group">
+                        <select class="form-select" id="country" aria-label="Default select example" style="background-color: gainsboro;">
+                           <option selected="selected">select a team/departement</option>
+                           <option value="1">Sabrine kouki</option>
+                           <option value="2">mahdi abdelmalek</option>
+                           <option value="3">Imen Akrout</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-2">
+                     <div class="input-group">
+                       <select class="form-select" id="country" aria-label="Default select example" style="background-color: gainsboro;">
+                          <option selected="selected">select a team/departement</option>
+                          <option value="1">Developpement</option>
+                          <option value="2">Test</option>
+                          <option value="3">conception</option>
+                       </select>
+                     </div>
+                   </div>
+                    <div class="col-md-4 mb-5">
+                      
+                        <span class="badge badge-primary ml-2  "   >Pending</span>
+                        <span class="badge badge-secondary ml-2">Absence</span>
+                        <span class="badge badge-success ml-2">Approved</span>
+                        <span class="badge badge-danger ml-2">Holiday</span>
+                     
+                      
+                    </div>
+                    <div class="col-md-2 mb-2">
+                     <div class="container">
+                        <div class="row ">
+                          <div class="col-md-12">
+                            <button class="btn btn-outline-info rounded mr-2 ">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                 <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                               </svg>
+                           </button>
+                           
+                           <button class="btn btn-outline-danger rounded ">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                 <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                               </svg>
+                           </button>
+                          </div>
+                        </div>
+                      </div>
+                     
+                   </div>
+                    
+                  </div>
+                </div>
+               
+            </div>
+            
+         </div>
+         
+      </div>
+      
+   </div>
+       <!--end  filtage-->
+
+ <!--start full-calendar-->
+<app-modalc #modal  style="z-index: 2;">
+</app-modalc>
+
+    <full-calendar id="cal"  class="campus-dashboard__calendar" defaultView="timeGridWeek" contentHeight="auto"
+       style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 18px;
+  border: 20px;border-color: orange;" class="d-flex justify-content-center mt-3"  #calendar [options]="calendarOptions" (dateClick)="openModalDashboard($event)">
+</full-calendar>
+   <!--end full-calendar-->
+
+            <!--start Modal attenadnce -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLongTitle">Employee Dashboard
+         </h5>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <div class="modal-body">
+         <!-- <form>
+          Working Date: <input type="date" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1"><br>
+           Check In Time: <input type="time" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1"><br>
+           Check Out Time: <input type="time" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1"><br>
+           <span>Type:</span>
+           <div class="input-group mb-3">
+            <select class="custom-select" id="inputGroupSelect01">
+              <option selected>Select...</option>
+              <option value="1">Office</option>
+              <option value="2">Home</option>
+            </select>
+          </div>
+         </form> -->
+         <p class="mt-4 "> <span class="span1">CHECK OUT SINCE:<span class="span2">00:00:00</span></span> </p>
+          <h4>Are you sure to Check In ?</h4>
+          <div class="modal-footer ">
+            <!-- <button type="button" class="btn btn-success" data-dismiss="modal">Continue</button> -->
+            <button type="button"  class="btn btn-success d-inline-flex align-items-center">
+               <svg class="svg8" xmlns="http://www.w3.org/2000/svg" width="18px" height="18px"  viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+               Continue
+            </button>
+            <button type="button" class="btn btn-danger  d-inline-flex align-items-center">
+               <svg class="svg8" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M367.2 412.5L99.5 144.8C77.1 176.1 64 214.5 64 256c0 106 86 192 192 192c41.5 0 79.9-13.1 111.2-35.5zm45.3-45.3C434.9 335.9 448 297.5 448 256c0-106-86-192-192-192c-41.5 0-79.9 13.1-111.2 35.5L412.5 367.2zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/></svg>
+               Cancel
+            </button>
+          </div>
+
+       </div>
+       <!-- <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         <button type="button" class="btn btn-primary">Send Attendance Requests </button>
+       </div> -->
+     </div>
+   </div>
+       
+ </div>
+ <!--end Modal attenadnce -->
+
+     <!--start Modal leave -->
+
+ <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLongTitle">Leave</h5>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <div class="modal-body">
+         <form>
+            <span>Leave type</span><br>
+            <div class="input-group mb-3"> 
+             <select class="custom-select" id="inputGroupSelect01">
+               <option selected>select...</option>
+               <option value="1">One</option>
+               <option value="2">Two</option>
+               <option value="3">Three</option>
+             </select>
+           </div>
+          Start date: <input type="date" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"><br>
+           End date: <input type="date" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"><br>
+           <span>Reason:</span>
+           <div class="input-group">
+            <textarea class="form-control" aria-label="With textarea" placeholder="Enter Your Reason"></textarea>
+          </div>
+          </form>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         <button type="button" class="btn btn-primary">Send Leave Request</button>
+       </div>
+     </div>
+   </div>
+ </div>
+     <!--end Modal leave -->
+
+
+     
+

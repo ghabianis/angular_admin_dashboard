@@ -1,0 +1,147 @@
+
+<div id="range-selector-demo">
+    <p>From: {{start}} To: {{end}}</p>
+    
+    
+  <dx-range-selector
+    id="range-selector"
+    [value]="[selectedStartValue, selectedEndValue]"
+    
+    [dataSource]="vacations"
+    dataSourceField="OffBoardingDate"
+    (onValueChanged)="onValueChanged($event)">
+  
+  
+    <dxo-margin [top]="50">
+  
+    </dxo-margin>
+    <dxo-scale
+      [startValue]="startValue"
+      [endValue]="endValue"
+      minorTickInterval="day"
+      tickInterval="week"
+      minRange="week"
+      maxRange="month"
+    >
+      <dxo-minor-tick [visible]="false"></dxo-minor-tick>
+    </dxo-scale>
+    <dxo-slider-marker format="monthAndDay"></dxo-slider-marker>
+    <dxo-behavior callValueChanged="onMoving"></dxo-behavior>
+  </dx-range-selector>
+  
+  <div class="right-side">
+    <dx-select-box
+    style="float: right;"
+      width="400"
+      [items]="sett"
+      [value]="sett[0]"
+      (onValueChanged)="onSelectValueChanged($event)"
+    
+    ></dx-select-box>
+  </div>
+  
+  <!-- table -->
+  <h2><br></h2>
+    <dx-data-grid
+  id="gridContainer"
+  [dataSource]="selectedVacations"
+  keyExpr="ID"
+  [showBorders]="true">
+
+  <dxo-filter-row
+    [visible]="showFilterRow"
+    [applyFilter]="currentFilter"
+  ></dxo-filter-row>
+  <dxo-header-filter [visible]="showHeaderFilter"></dxo-header-filter>
+ 
+  <!-- <dxo-search-panel
+    [visible]="true"
+    [width]="240"
+    placeholder="Search..."
+    text="2023-05-25"
+
+  >
+ 
+</dxo-search-panel> -->
+
+
+  <dxi-column dataField="FullName" [width]="140" caption="Full Name">
+    <dxo-header-filter [groupInterval]="10000"></dxo-header-filter>
+  </dxi-column>
+  <dxi-column dataField="Team" [width]="140" caption="Team">
+    <dxo-header-filter [groupInterval]="10000"></dxo-header-filter>
+  
+    <dxo-header-filter [dataSource]="orderHeaderFilter"></dxo-header-filter>
+  </dxi-column>
+
+  <dxi-column dataField="Vacationbalance" [width]="140" caption="Vacation balance">
+    <dxo-header-filter [groupInterval]="10000"></dxo-header-filter>
+  </dxi-column>
+
+  <dxi-column dataField="TotaltakenVacation" [width]="140" caption="Total taken Vacation">
+    <dxo-header-filter [groupInterval]="10000"></dxo-header-filter>
+  </dxi-column>
+
+  <dxi-column dataField="TotalWorkedDays" [width]="140">
+    <dxo-header-filter [groupInterval]="10000"></dxo-header-filter>
+  </dxi-column>
+
+  <dxi-column dataField="TotalLeaveHours" [width]="140">
+    <dxo-header-filter [groupInterval]="10000"></dxo-header-filter>
+  </dxi-column>
+
+
+
+  <dxi-column
+    dataField="OffBoardingDate"
+    alignment="right"
+    dataType="date"
+    format="yyyy/M/d"
+    [width]="180"
+  ></dxi-column>
+
+  <dxi-column dataField="TotalAbsenceDays" [width]="140">
+    <dxo-header-filter [groupInterval]="10000"></dxo-header-filter>
+  </dxi-column>
+
+  <dxi-column dataField="TotalVacation" [width]="140" >
+    <dxo-header-filter [groupInterval]="10000"></dxo-header-filter>
+  </dxi-column>
+
+
+  <dxi-column dataField="TotalPending" [width]="140" >
+    <dxo-header-filter [groupInterval]="10000"></dxo-header-filter>
+  </dxi-column>
+
+
+  <dxi-column dataField="PendingWork" [width]="140">
+    <dxo-header-filter [groupInterval]="10000"></dxo-header-filter>
+  </dxi-column>
+
+  <!-- <dxi-column
+    dataField="SaleAmount"
+    alignment="right"
+    format="currency"
+    [editorOptions]="{ format: 'currency', showClearButton: true }"
+  >
+    <dxo-header-filter
+      [dataSource]="saleAmountHeaderFilter"
+    ></dxo-header-filter>
+  </dxi-column>
+  <dxi-column dataField="Employee"></dxi-column>
+  <dxi-column dataField="CustomerStoreCity" caption="City">
+    <dxo-header-filter [allowSearch]="true"></dxo-header-filter>
+  </dxi-column> -->
+</dx-data-grid>
+  
+  </div>
+<!-- 
+  <select class="form-select" aria-label="Default select example">
+    <option selected>Open this select menu</option>
+    <option value="1">12-01-2022 11.30</option>
+    <option value="2">12-01-2022 15.30</option>
+    <option value="3">12-01-2022 12.30</option>
+  </select> -->
+
+
+  

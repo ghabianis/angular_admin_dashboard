@@ -1,0 +1,54 @@
+<dx-data-grid
+  id="gridContainer"
+  [dataSource]="orders"
+  keyExpr="ID"
+  [showBorders]="true">
+
+  <dxo-filter-row
+    [visible]="showFilterRow"
+  ></dxo-filter-row>
+  <dxo-header-filter [visible]="showHeaderFilter"></dxo-header-filter>
+  <dxo-search-panel
+    [visible]="true"
+    [width]="270"
+    placeholder="Search..."
+  ></dxo-search-panel>
+  <dxi-column
+    dataField="Date"
+    alignment="right"
+    dataType="date"
+    [width]="270"
+    [calculateFilterExpression]="calculateFilterExpression"
+  ><dxo-header-filter [dataSource]="orderHeaderFilter"></dxo-header-filter>
+</dxi-column>
+
+<dxi-column
+    dataField="From"
+    alignment="right"
+    dataType="datetime"
+    format="HH:mm"
+    [width]="270"
+  ></dxi-column>
+  <dxi-column
+    dataField="To"
+    alignment="right"
+    dataType="datetime"
+    format="HH:mm"
+    [width]="270"
+  ></dxi-column>
+
+  <dxi-column dataField="Type" [width]="270" caption="Type">
+    <dxo-header-filter [groupInterval]="10000"></dxo-header-filter>
+  </dxi-column>
+
+  <dxi-column dataField="Status" [width]="270" caption="Status">
+    <dxo-header-filter [groupInterval]="10000"></dxo-header-filter>
+  </dxi-column>
+
+  <dxi-column dataField="LastUpdate" [width]="270" caption="LastUpdate">
+    <dxo-header-filter [groupInterval]="10000"></dxo-header-filter>
+  </dxi-column>
+  </dx-data-grid>
+  
+  
+  

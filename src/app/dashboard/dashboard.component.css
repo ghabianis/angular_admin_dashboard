@@ -1,0 +1,40 @@
+.space {
+    width: 10px;
+   
+    display: inline-block;
+    
+  }
+  .card-body{
+    padding:8px 12px;
+    border-radius:10px;
+    font: size 2px;
+    margin:auto;
+    display:block;
+   
+  }
+  #svg1 {
+    fill: seagreen ;
+  }
+  #svg2 {
+    fill:  slategrey;
+  }
+  #svg3 {
+    fill: steelblue;
+  }
+  .svg8{
+    fill: white;
+  }
+  .span1 {
+    border: 1px ridge green;
+    padding:15px;
+    margin-left: 25%;
+    margin-top: 25%;
+    width: 150%;
+    height: 30%;
+    background-color: ghostwhite;
+    }
+    .span2{
+      
+    color: teal;
+    }
+  
